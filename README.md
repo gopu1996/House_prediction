@@ -15,3 +15,22 @@ conda activate venv/
 ...
 pip install -r requirements.txt
 
+
+BUID DOCKER IMAGE
+...
+
+docker build -t <image_name>:<tagname>
+
+
+To list docker image
+...
+
+docker image
+
+
+Run docker image
+...
+
+docker run -p 5000:5000 -e PORT =5000
+
+
