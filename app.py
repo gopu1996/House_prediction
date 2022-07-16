@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route("/",methods=["GET","POST"])
 def getDemo():
-    return "Starting ML Project"
+    return "ci cd ML Project"
 
 
 
